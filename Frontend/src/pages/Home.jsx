@@ -8,7 +8,7 @@ import LocationSearchPanel from "../components/LocationSearchPanel";
 import VehiclePanel from "../components/VehiclePanel";
 import ConfirmRide from "../components/ConfirmedRide";
 import LookingForDriver from "../components/LookingForDriver";
-import WaitingforDriver from "../components/WaitingForDriver";
+import WaitingforDriver from "../components/WaitingforDriver";
 
 import UserContext, { UserDataContext } from "../context/UserContext";
 import { useNavigate } from "react-router-dom";
