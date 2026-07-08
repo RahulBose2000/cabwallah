@@ -1,0 +1,86 @@
+# ==========================================
+# Environment Variables
+# ==========================================
+**/.env
+**/.env.*
+
+# ==========================================
+# Dependencies
+# ==========================================
+**/node_modules/
+
+# ==========================================
+# Build Files
+# ==========================================
+**/dist/
+**/build/
+**/.next/
+**/.turbo/
+**/coverage/
+
+# ==========================================
+# Logs
+# ==========================================
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# ==========================================
+# OS Files
+# ==========================================
+.DS_Store
+Thumbs.db
+
+# ==========================================
+# IDE Files
+# ==========================================
+.vscode/
+.idea/
+
+# ==========================================
+# Archives
+# ==========================================
+*.zip
+
+# ==========================================
+# Media Files
+# ==========================================
+*.mp4
+
+# ==========================================
+# Images (Ignore only if they are NOT part of your project)
+# Remove these lines if your frontend uses PNG/SVG assets.
+# ==========================================
+*.png
+*.svg
+
+# ==========================================
+# Secret JSON Files
+# (Do NOT ignore all JSON files)
+# ==========================================
+firebase-admin.json
+service-account.json
+credentials.json
+
+# ==========================================
+# Postman
+# ==========================================
+postman/
+**/postman/
+*.postman_collection.json
+*.postman_environment.json
+
+# ==========================================
+# Keep Required Project JSON Files
+# ==========================================
+!frontend/package.json
+!backend/package.json
+!frontend/package-lock.json
+!backend/package-lock.json
+!frontend/tsconfig.json
+!backend/tsconfig.json
+!frontend/vercel.json
+!backend/vercel.json
+!backend/nodemon.json
+!frontend/nodemon.json
